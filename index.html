@@ -6,20 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Encuentrame</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    
+     
     
 </head>
 <body>
-        <h3>My Google Maps Demo</h3>
-    <div class="container">
+    <div class="">
+        <div class="nav yellow " id="menu">
+            <div input white-text>lab</div>
+        </div>
         <div id="map"></div>
-        <div class="encuentrame">Encuentrame</div>
+        <button class="col l12 btn center white-text " id="encuentrame" type="" onclick="buscar()">Encuentrame</button>
     </div>
 
 
 
 
-
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaZBizldZ7kLefr6rpEW25ReJiuocgSOY&callback=initMap"
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDaZBizldZ7kLefr6rpEW25ReJiuocgSOY&callback=initMap&libraries=places"
     type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/app.js"></script>
