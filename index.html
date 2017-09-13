@@ -13,13 +13,24 @@
     
 </head>
 <body>
-    <div class="">
-        <div class="col m12 s12" id="menu">
-            <div class="col l2 white-text  list inline"><i class="material-icons" id="icono">location_searching</i><input id="input" type="text" placeholder="laboratoria"></div>
+    
+    <div class="" id="menu">
+        <div class="row">
+            <div class="col l12 s12 m12">
+                <div class="col m6" id="ubicacion">
+                    <i class="material-icons col m1" id="icono">gps_fixed</i>
+                    <div class="col m5"><input class="input" id="punto_Partida input" type="text" placeholder="Punto de Partida"></div>
+                </div>
+                <div class="col m5" id="">
+                    <i class="material-icons col m1" id="icono">near_me</i>
+                    <div class="col m4"><input class="input" id="punto_Destino" type="text" placeholder="Punto de Destino"></div>
+                </div>
+            </div>
         </div>
+    </div>   
         <div id="map"></div>
         <button class="col l12 btn center white-text " id="encuentrame" type="" onclick="buscar()">Encuentrame</button>
-    </div>
+    
 
 
 

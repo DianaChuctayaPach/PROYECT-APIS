@@ -44,3 +44,9 @@ var funcionError = function (error) {
 }
 // document.getElementById("encuentrame").addEverListener("onclick",buscar);
 }
+
+                // SEGUNDA PARTE
+ var inputPartida = document.getElementById("punto_Partida").value;
+ var inputDestino = document.getElementById("punto_Destino").value;
+ new google.maps.places.Autocomplete(inputPartida);
+ new google.maps.places.Autocomplete(inputDestino);
